@@ -78,6 +78,8 @@ dependencies:
   - folium=0.14.0=py39haa95532_0
   - fqdn=1.5.1=pyhd8ed1ab_1
   - freetype=2.12.1=ha860e81_0
+  - geographiclib=2.0=py39haa95532_0
+  - geopy=2.4.1=py39haa95532_0
   - giflib=5.2.2=h7edc060_0
   - gitdb=4.0.7=pyhd3eb1b0_0
   - gitpython=3.1.43=py39haa95532_0
@@ -187,6 +189,7 @@ dependencies:
   - mkl-service=2.4.0=py39h827c3e9_2
   - mkl_fft=1.3.11=py39h827c3e9_0
   - mkl_random=1.2.8=py39hc64d2fc_0
+  - mlxtend=0.23.4=py39haa95532_0
   - msgpack-python=1.1.0=py39h2b77a98_0
   - msys2-conda-epoch=20160418=1
   - nbclient=0.10.2=pyhd8ed1ab_0
@@ -331,10 +334,13 @@ dependencies:
   - zstandard=0.23.0=py39h4fc1ca9_1
   - zstd=1.5.6=h8880b57_0
   - pip:
+      - ace-tools==0.0
       - contourpy==1.3.0
       - cycler==0.12.1
       - fonttools==4.55.8
       - fsspec==2025.2.0
+      - imbalanced-learn==0.12.4
+      - imblearn==0.0
       - kiwisolver==1.4.7
       - linkify-it-py==2.0.3
       - markdown==3.7
@@ -349,6 +355,6 @@ dependencies:
       - textblob==0.19.0
       - tzdata==2025.1
       - uc-micro-py==1.0.3
-      - xgboost==1.6.2
+      - xgboost==2.1.4
       - xyzservices==2025.1.0
 prefix: C:\Users\DCervin\.conda\envs\ds18_ml-proj1
