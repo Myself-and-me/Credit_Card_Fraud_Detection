@@ -19,6 +19,8 @@ Yes. We explore advanced ensemble models like XGBoost, feature interaction engin
 
 ● Accompanying project document, **Credit_Card_Fraud_Detection_Overview.pdf**
 
+● Project runing environment setup exported to **ds18_env_29.03.25.yml** (conda env create -f ds18_env_29.03.25.yml -n myenvname) 
+
 ● Project data, some of the project data files (csv & pickle) are too large to manage on Github, files are downloadavle aldo from google drive:
 [Download Dataset from Google Drive](https://drive.google.com/drive/folders/1fj5W9gTy1bmbCPMZOGqFl2iCZmKMsAs-?usp=sharing)
 
